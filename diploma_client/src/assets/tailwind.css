@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Nunito;
+    src: url('fonts/Nunito.ttf');
+}
+
+@font-face {
+    font-family: FleurDeLeah;
+    src: url('fonts/FleurDeLeah-Regular.ttf');
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #292524;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #fdba74;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #fdba74;
+}
+
+.router-link-active {
+    @apply text-orange-300;
+}
+
+.router-link-exact-active {
+    @apply text-orange-300;
+}
